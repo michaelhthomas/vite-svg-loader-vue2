@@ -12,33 +12,35 @@ const Async = defineAsyncComponent(() => import(`./assets/${name}.svg`))
 </script>
 
 <template>
-  <div id="component">
-    <Test class="test-svg" data-animal="bird" aria-hidden="true" />
-  </div>
+  <div>
+    <div id="component">
+      <Test class="test-svg" data-animal="bird" aria-hidden="true" />
+    </div>
 
-  <div id="image">
-    <img src="./assets/test.svg?url">
-  </div>
+    <div id="image">
+      <img src="./assets/test.svg?url">
+    </div>
 
-  <div id="async">
-    <Async />
-  </div>
+    <div id="async">
+      <Async />
+    </div>
 
-  <div id="skipsvgo">
-    <TestSkipSvgo />
-  </div>
+    <div id="skipsvgo">
+      <TestSkipSvgo />
+    </div>
 
-  <div id="url">
-    {{ testUrl }}
-  </div>
+    <div id="url">
+      {{ testUrl }}
+    </div>
 
-  <div id="raw">
-    {{ testRaw }}
-  </div>
+    <div id="raw">
+      {{ testRaw }}
+    </div>
 
-  <div id="root">
-    <img src="/root.svg" />
-  </div>
+    <div id="root">
+      <img src="/root.svg" />
+    </div>
 
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+    <HelloWorld msg="Hello Vue 3 + Vite" />
+  </div>
 </template>

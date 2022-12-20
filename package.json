@@ -10,7 +10,7 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "dependencies": {
-    "@vue/compiler-sfc": "^3.2.20",
+    "@vue/compiler-sfc": "^2.7.14",
     "svgo": "^2.7.0"
   },
   "devDependencies": {

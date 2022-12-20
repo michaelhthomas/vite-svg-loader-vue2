@@ -1,5 +1,5 @@
 import { defineConfig, loadEnv } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from '@vitejs/plugin-vue2'
 import viteSvgLoader from '../../'
 
 // https://vitejs.dev/config/
